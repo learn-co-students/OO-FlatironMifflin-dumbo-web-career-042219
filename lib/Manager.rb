@@ -16,6 +16,12 @@ def self.all
 	@@all
 end
 
+# def employees
+# 	employees.map do |my_employee|
+# 	my_employee.name
+# end
+# end
+
 def hire_employee(name, salary)
 	new_employee = Employee.new(name, salary, self)
 	@employees << new_employee
