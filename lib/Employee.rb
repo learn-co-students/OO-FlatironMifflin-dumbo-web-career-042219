@@ -9,7 +9,6 @@ attr_accessor :name, :salary, :manager
 		@salary = salary	
 		@manager = manager
 		@@all << self
-		manager.employees << self
 	end
 
 	def manager_name
